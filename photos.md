@@ -13,7 +13,7 @@ permalink: /
 <div class="project">
     <div class= "thumbnail">
         <a href="{{ site.baseurl }}{{ image.path }}">
-            <img class="thumgbnail" src="{{ site.baseurl }}{{ image.path }}" />
+            <img src="{{ site.baseurl }}{{ image.path }}" />
         </a>
     </div>
 </div>
