@@ -222,7 +222,7 @@ position: relative;
     left: -30%;
     @include media-query($on-laptop) {
         width: 200px;
-        height: 170px;
+        height: auto;
         left: -15%;
     }
 }
