@@ -1,13 +1,13 @@
 ---
 layout: page
-title: photos
-permalink: /photos
+title: nuri
+permalink: /
 ---
 
 
 {% for image in site.static_files %}
 <!--
-    {% if image.path contains 'photos' %}
+    {% if image.path contains 'nuri' %}
 
 -->
 <div class="project">
