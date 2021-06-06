@@ -129,6 +129,10 @@ font-size: 36px;
     }
 }
 .post-content {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 h2 {
 font-size: 42px;
 @include media-query($on-laptop) {
@@ -188,21 +192,21 @@ font-size: 16px;
     float: left;
     vertical-align: middle;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 5px;
     @include media-query($on-laptop) {
         width: 170px;
-        height: 170px;
+        height: 180px;
     }
 }
 .thumbnail{
     position: relative;
-    width: 210px;
-    height: 210px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     overflow: hidden;
     @include media-query($on-laptop) {
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
     }
 }
 .thumbnail img{
