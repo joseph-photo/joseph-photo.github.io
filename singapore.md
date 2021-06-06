@@ -1,14 +1,14 @@
 ---
 layout: page
-title: joseph
-permalink: /joseph
-order: 5
+title: singapore
+permalink: /singapore
+order: 4
 ---
 
 
 {% for image in site.static_files %}
 <!--
-    {% if image.path contains 'joseph' %}
+    {% if image.path contains 'singapore' %}
 
 -->
 <div class="project">
