@@ -1,7 +1,7 @@
 ---
 layout: page
 title: korea
-permalink: /korea
+permalink: /
 order: 1
 ---
 
