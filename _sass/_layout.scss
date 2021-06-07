@@ -199,6 +199,17 @@ font-size: 16px;
         padding: 1vw;
     }
 }
+.project .description {
+    color: #888;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -3px;
+    margin-right: -7px;
+    float: right;
+    @include media-query($on-laptop) {
+        margin-right: 3px;
+    }
+}
 .thumbnail{
     position: relative;
     width: 220px;
